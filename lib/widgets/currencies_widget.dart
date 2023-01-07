@@ -34,7 +34,7 @@ class CurrenciesWidget extends StatelessWidget {
                           ),
                           title: Text(
                             currency.name,
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                            style: const TextStyle(fontWeight: FontWeight.bold),
                           ),
                           trailing: Text(
                             currency.value.toString().replaceAll('.', ','),
